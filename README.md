@@ -1,6 +1,8 @@
 # Memento v 0.2.
 <p>Memento is simple open source TODO list software inspired by Brian Tracy "Eat That Frog" book. Memento is also example of using and mixing QML and standard GUI interface of PyQT.</p>
 
+![Memento](https://cloud.githubusercontent.com/assets/8684952/8014583/58e540bc-0bd2-11e5-9089-598d933d620c.png "Memento")
+
 <h4>Features:</h4>
 <ul>
     <li>Put your organizational skills to work and prioritize tasks by always working from a list.</li>
