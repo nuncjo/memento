@@ -1,7 +1,6 @@
-# memento
-Memento is simple open source software inspired by Brian Tracy "Eat That Frog" book. Memento is also example of using and mixing QML and standard GUI interface of PyQT.
-<h3>Memento v 0.2.</h3>
-<p>Memento is simple open source software inspired by Brian Tracy "Eat That Frog" book.</p>
+# Memento v 0.2.
+<p>Memento is simple open source software inspired by Brian Tracy "Eat That Frog" book. Memento is also example of using and mixing QML and standard GUI interface of PyQT.</p>
+
 <h4>Features:</h4>
 <ul>
     <li>Ability to set one time or daily Tasks.</li>
@@ -24,5 +23,4 @@ Memento is simple open source software inspired by Brian Tracy "Eat That Frog" b
     <li>Gaining XP and achievements (gamify mode)</li>
     <li>Mobile version for different platforms</li>
 </ul>
-    <p>Memento is also example of using and mixing QML and standard GUI interface of PyQT.</p>
-    <p>Source code at <a href="https://github.com/nuncjo">https://github.com/nuncjo</a></p>
+Source code: https://github.com/nuncjo/memento
