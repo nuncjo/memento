@@ -1,0 +1,154 @@
+QCheckBox::indicator {
+         width: 20px;
+         height: 20px;
+}
+
+QCheckBox::indicator:checked
+{
+   image: url(:/icons/icons/png/checkbox_checked.png);
+}
+QCheckBox::indicator:unchecked
+{
+   image: url(:/icons/icons/png/checkbox.png);
+}
+
+QFrame#frame_2 {
+    background-color: '#000000';
+}
+
+QToolButton#toolButton_close {
+    background-color:#e74c3c;
+    border:0px;
+} 
+
+QCalendarWidget QWidget#qt_calendar_navigationbar { 
+background-color: #2574A9;
+}
+QTextEdit {
+    font-size:14px;
+}
+
+QPlainTextEdit {
+    font-size:14px;
+}
+
+QWidget#Form {
+     background-color: '#34495e';
+} 
+
+QCalendarWidget {    
+    font-size:14px;
+}
+
+QPushButton {
+    background-color:#27ae60;
+    height:25px;
+    border-radius:0px;
+    font-size:14px;
+    color:#FFF;
+}
+
+QPushButton#pushButton_show_idea {
+    background-color:#f39c12;
+    height:25px;
+    border-radius:0px;
+    font-size:14px;
+    color:#FFF;
+}
+
+QPushButton#pushButton_show_idea:hover {
+    background-color:#2574A9;
+    height:25px;
+    width:60px;
+    border-radius:0px;
+    font-size:14px;
+    color:#FFF;
+}
+QPushButton#pushButton_show_idea:disabled {
+    background-color:#AEA8D3;
+    height:25px;
+    border-radius:0px;
+    font-size:14px;
+    color:#FFF;
+}
+
+QLabel {
+    height:25px;
+    border-radius:0px;
+    font-size:14px;
+    color:#FFF;
+}
+
+QCheckBox {
+    height:25px;
+    border-radius:0px;
+    font-size:14px;
+    color:#FFF;
+}
+
+QPushButton:pressed {
+    background-color:#AEA8D3;
+    height:25px;
+    width:60px;
+    border-radius:0px;
+    font-size:14px;
+    color:#FFF;
+}
+
+QPushButton:disabled {
+    background-color:#AEA8D3;
+    height:25px;
+    border-radius:0px;
+    font-size:14px;
+    color:#FFF;
+}
+
+QPushButton:hover {
+    background-color:#2574A9;
+    height:25px;
+    width:60px;
+    border-radius:0px;
+    font-size:14px;
+    color:#FFF;
+}
+
+QLineEdit {
+    height:25px;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 1px;
+    color:#00000;
+    font-size:14px;
+}    
+
+QTimeEdit {
+    height:25px;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 1px;
+    color:#00000;
+    font-size:14px;
+}  
+
+QComboBox {
+    height:25px;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 1px;
+    color:#00000;
+    font-size:14px;
+}
+
+QComboBox::drop-down {
+    height:25px;
+    width: 25px;
+    border: 0px;
+    font-size:14px;
+}
+
+QComboBox::down-arrow {
+    image:url(:/icons/icons/png/downarrow.png);
+    width: 15px;
+    height:25px;
+    font-size:14px;
+}

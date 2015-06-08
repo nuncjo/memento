@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-audio57:before {
+	content: "\e000";
+}
+.flaticon-card31:before {
+	content: "\e001";
+}
+.flaticon-cassette tape:before {
+	content: "\e002";
+}
+.flaticon-cloud storage:before {
+	content: "\e003";
+}
+.flaticon-compact disc2:before {
+	content: "\e004";
+}
+.flaticon-connector2:before {
+	content: "\e005";
+}
+.flaticon-cpu5:before {
+	content: "\e006";
+}
+.flaticon-data105:before {
+	content: "\e007";
+}
+.flaticon-data storage1:before {
+	content: "\e008";
+}
+.flaticon-data storage:before {
+	content: "\e009";
+}
+.flaticon-download174:before {
+	content: "\e00a";
+}
+.flaticon-download175:before {
+	content: "\e00b";
+}
+.flaticon-folder250:before {
+	content: "\e00c";
+}
+.flaticon-hardware1:before {
+	content: "\e00d";
+}
+.flaticon-hdd6:before {
+	content: "\e00e";
+}
+.flaticon-ipod14:before {
+	content: "\e00f";
+}
+.flaticon-phone385:before {
+	content: "\e010";
+}
+.flaticon-photo216:before {
+	content: "\e011";
+}
+.flaticon-save29:before {
+	content: "\e012";
+}
+.flaticon-sim3:before {
+	content: "\e013";
+}
+.flaticon-sim4:before {
+	content: "\e014";
+}
+.flaticon-solid state drive:before {
+	content: "\e015";
+}
+.flaticon-storage20:before {
+	content: "\e016";
+}
+.flaticon-storage21:before {
+	content: "\e017";
+}
+.flaticon-storage22:before {
+	content: "\e018";
+}
+.flaticon-upload127:before {
+	content: "\e019";
+}
+.flaticon-usb36:before {
+	content: "\e01a";
+}
+.flaticon-usb37:before {
+	content: "\e01b";
+}
+.flaticon-usb38:before {
+	content: "\e01c";
+}
+.flaticon-usb39:before {
+	content: "\e01d";
+}

@@ -1,0 +1,48 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/png/checkbox.png</file>
+    <file>icons/png/checkbox_checked.png</file>
+    <file>icons/png/cross.png</file>
+    <file>icons/png/tray.png</file>
+    <file>icons/png/downarrow.png</file>
+    <file>icons/png/2441.png</file>
+    <file>icons/png/minimize.png</file>
+    <file>icons/png/audio57.png</file>
+    <file>icons/png/card31.png</file>
+    <file>icons/png/cassette tape.png</file>
+    <file>icons/png/checking1.png</file>
+    <file>icons/png/cloud storage.png</file>
+    <file>icons/png/compact disc2.png</file>
+    <file>icons/png/connector2.png</file>
+    <file>icons/png/contract11.png</file>
+    <file>icons/png/cpu5.png</file>
+    <file>icons/png/data storage.png</file>
+    <file>icons/png/data storage1.png</file>
+    <file>icons/png/data105.png</file>
+    <file>icons/png/download174.png</file>
+    <file>icons/png/download175.png</file>
+    <file>icons/png/folder250.png</file>
+    <file>icons/png/hardware1.png</file>
+    <file>icons/png/hdd6.png</file>
+    <file>icons/png/headoutline.png</file>
+    <file>icons/png/ipod14.png</file>
+    <file>icons/png/phone385.png</file>
+    <file>icons/png/photo216.png</file>
+    <file>icons/png/save29.png</file>
+    <file>icons/png/settings39.png</file>
+    <file>icons/png/sim3.png</file>
+    <file>icons/png/sim4.png</file>
+    <file>icons/png/solid state drive.png</file>
+    <file>icons/png/storage20.png</file>
+    <file>icons/png/storage21.png</file>
+    <file>icons/png/storage22.png</file>
+    <file>icons/png/upload127.png</file>
+    <file>icons/png/usb36.png</file>
+    <file>icons/png/usb37.png</file>
+    <file>icons/png/usb38.png</file>
+    <file>icons/png/usb39.png</file>
+  </qresource>
+  <qresource prefix="sounds">
+    <file>sounds/alert.wav</file>
+  </qresource>
+</RCC>

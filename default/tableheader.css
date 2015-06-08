@@ -1,0 +1,22 @@
+QHeaderView::section {
+        background-color: #2C3E50;
+        color: white;
+        height:24px;
+        padding-left: 4px;
+        border: 1px solid #6c6c6c;
+}
+
+QHeaderView::section:checked
+{
+    background-color: #f39c12;
+}
+
+/* style the sort indicator 
+QHeaderView::down-arrow {
+    image: url(down_arrow.png);
+}
+
+QHeaderView::up-arrow {
+    image: url(up_arrow.png);
+}*/
+

@@ -1,0 +1,75 @@
+QAbstractItemView {
+    color:#000000;
+}
+
+QComboBox {
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 1px;
+    color:#00000;
+}
+
+QComboBox::drop-down {
+    width: 25px;
+    border: 0px;
+}
+
+QComboBox::down-arrow {
+    image:url(:/icons/icons/png/downarrow.png);
+    width: 15px;
+    height: 21px;
+}
+            
+QPushButton {
+    background-color:#2574A9;
+    border-radius:0px;
+    font-size:12px;
+    color:#FFF;
+}
+
+QPushButton:pressed {
+    background-color:#2574A9;
+    border-radius:0px;
+    font-size:12px;
+    color:#FFF;
+}
+
+QPushButton:hover {
+    background-color:#2C3E50;
+    border-radius:0px;
+    font-size:12px;
+    color:#FFF;
+}
+            
+QTableView::item:focus
+{
+    border: 0px;
+    background-color: #000000;
+               
+}
+
+QTableCornerButton::section {
+    background: #2C3E50;
+    }
+
+QHeaderView::section {
+    background-color: #2C3E50;
+    color: white;
+                
+    padding-left: 4px;
+    border: 1px solid #6c6c6c;
+}
+
+QHeaderView::section:checked
+{
+    background-color: #f39c12;
+}
+
+/* style the sort indicator */
+QHeaderView::down-arrow {
+    image: url(down_arrow.png);
+}
+
+QHeaderView::up-arrow {
+    image: url(up_arrow.png);
+}

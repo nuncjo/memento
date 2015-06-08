@@ -1,0 +1,88 @@
+QCheckBox {
+    height:25px;
+    border-radius:0px;
+    font-size:14px;
+    color:#FFF;
+}
+
+QCheckBox::indicator {
+         width: 20px;
+         height: 20px;
+}
+
+QCheckBox::indicator:checked
+{
+   image: url(:/icons/icons/png/checkbox_checked.png);
+}
+QCheckBox::indicator:unchecked
+{
+   image: url(:/icons/icons/png/checkbox.png);
+}
+
+QToolButton#toolButton_24h {
+    background-color:#1abc9c;
+    border:0px;
+}
+     
+QToolButton#toolButton_tasks {
+    background-color:#F5D76E;
+    border:0px;
+}
+     
+QToolButton#toolButton_ideas {
+    background-color:#ecf0f1;
+    border:0px;
+} 
+
+QToolButton#toolButton_settings {
+    background-color:#9b59b6;
+    border:0px;
+}
+     
+QToolButton#toolButton_minimize {
+    background-color:#e74c3c;
+    border:0px;
+} 
+
+QMainWindow {
+    background-color: '#34495e';
+} 
+    
+QStackedWidget {
+    border: 1px solid '#000000';
+}  
+
+QFrame#frame {
+    background-color: '#000000';
+}  
+    
+QFrame#frame_2 {
+    background-color: '#000000';
+}
+
+QPushButton#pushButton_add_task, #pushButton_add_idea {
+    background-color:#27ae60;
+    height:25px;
+    width:60px;
+    border-radius:0px;
+    font-size:12px;
+    color:#FFF;
+}
+
+QPushButton#pushButton_add_task:pressed, #pushButton_add_idea:pressed {
+    background-color:#27ae60;
+    height:25px;
+    width:60px;
+    border-radius:0px;
+    font-size:12px;
+    color:#FFF;
+}
+
+QPushButton#pushButton_add_task:hover, #pushButton_add_idea:hover {
+    background-color:#2574A9;
+    height:25px;
+    width:60px;
+    border-radius:0px;
+    font-size:12px;
+    color:#FFF;
+}
