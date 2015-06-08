@@ -5,7 +5,8 @@ Required dependencies:
 - Python 3
 - PyQT5.4
 - fuzzywuzzy
-- 
+
+
 ![Memento](https://cloud.githubusercontent.com/assets/8684952/8014583/58e540bc-0bd2-11e5-9089-598d933d620c.png "Memento")
 
 <h4>Features:</h4>
