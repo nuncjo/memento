@@ -3,7 +3,7 @@
 
 Required dependencies:
 - Python 3.4
-- PyQT5.4
+- PyQT 5.4
 - fuzzywuzzy
 
 
