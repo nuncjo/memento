@@ -60,20 +60,17 @@ class TaskModel(object):
 
     def load_tasks(self, offset=0, limit=100):
         result = self.cr.execute("SELECT * from Tasks LIMIT ? OFFSET ?", (limit, offset))
-        tasks = result.fetchall()
-        return tasks
+        return result.fetchall()
 
     def load_tasks_period(self, date_start, date_end, done=0, cyclic=1):
         result = self.cr.execute(
             "SELECT * from Tasks WHERE datetime>='{}' AND datetime<='{}' AND done=={} OR cyclic=={} AND done=={} ORDER BY datetime ASC".format(
                 date_start, date_end, done, cyclic, done))
-        tasks = result.fetchall()
-        return tasks
+        return result.fetchall()
 
     def load_task(self, id):
         result = self.cr.execute("SELECT * from Tasks WHERE id={}".format(id))
-        task = result.fetchone()
-        return task
+        return result.fetchone()
 
     def create_table(self):
         result = None

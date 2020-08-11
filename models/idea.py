@@ -40,19 +40,16 @@ class IdeaModel(object):
 
     def load_ideas(self, offset=0, limit=20):
         result = self.cr.execute("SELECT * from Ideas LIMIT {} OFFSET {}".format(limit, offset))
-        ideas = result.fetchall()
-        return ideas
+        return result.fetchall()
       
     def load_idea(self, id):
         result = self.cr.execute("SELECT * from Ideas WHERE id={}".format(id))
-        idea = result.fetchone()
-        return idea
+        return result.fetchone()
 
     def load_idea_by_task_id(self, id):
         #TODO: handle more than one task
         result = self.cr.execute("SELECT * from Ideas WHERE id_task={}".format(id))
-        idea = result.fetchone()
-        return idea
+        return result.fetchone()
 
     def create_table(self):
         result = None

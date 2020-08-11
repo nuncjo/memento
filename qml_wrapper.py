@@ -98,7 +98,4 @@ class TaskWrapper(QObject):
     @pyqtProperty(bool)
     def expired(self):
         now = dt.now()
-        if self._task['datetime'] < now:
-            return True
-        else:
-            return False
+        return self._task['datetime'] < now
